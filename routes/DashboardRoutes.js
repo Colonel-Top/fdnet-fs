@@ -26,15 +26,20 @@ import { v4 as uuid } from 'uuid';
 export const DashboardMenu = [
 	{
 		id: uuid(),
-		title: 'Dashboard',
+		title: 'Home',
 		icon: 'home',
-		link: '/'
+		link: '/',
+		children: [
+			{ id: uuid(), link: '/', name: '1.1 รายการขอล่าสุด' },
+			{ id: uuid(), link: '/unit1/fillkorpor', name: '1.2 กรอกใบ คพ.'},
+		]
 	},
-	{
-		id: uuid(),
-		title: 'LAYOUTS & PAGES',
-		grouptitle: true
-	},
+	// {
+	// 	id: uuid(),
+	// 	title: 'LAYOUTS & PAGES',
+	// 	grouptitle: true
+	// },
+
 	{
 		id: uuid(),
 		title: 'Pages',

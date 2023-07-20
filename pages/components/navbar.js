@@ -65,8 +65,8 @@ const Navbars = () => {
 								<Tab.Content>
 									<Tab.Pane eventKey="all" className="pb-4 p-4">
 										<Navbar expand="lg">
-											<Navbar.Brand href="#home">
-												<Image src="/images/brand/logo/logo.svg" alt="" loading="lazy" />
+											<Navbar.Brand href="#home" className={"text-center"}>
+												<Image src="/images/brand/logo/fdnet.jpg" alt="" loading="lazy" />
 											</Navbar.Brand>
 											<Navbar.Toggle aria-controls="basic-navbar-nav" />
 											<Navbar.Collapse id="basic-navbar-nav">
@@ -192,8 +192,8 @@ const Navbars = () => {
 								<Tab.Content>
 									<Tab.Pane eventKey="all" className="pb-4 p-4">
 										<Navbar bg="dark" variant="dark">
-											<Navbar.Brand href="#home">
-												<Image src="/images/brand/logo/logo.svg" alt="" loading="lazy" />
+											<Navbar.Brand href="#home"  className={"text-center"}>
+												<Image src="/images/brand/logo/fdnet.jpg" alt="" loading="lazy" />
 											</Navbar.Brand>
 											<Nav className="me-auto">
 												<Nav.Link href="#home">Home</Nav.Link>
@@ -204,9 +204,9 @@ const Navbars = () => {
 										<br />
 										<Navbar bg="primary" variant="dark">
 											<Container>
-												<Navbar.Brand href="#home">
+												<Navbar.Brand href="#home"  className={"text-center"}>
 													{' '}
-													<Image src="/images/brand/logo/logo.svg" alt="" loading="lazy" />
+													<Image src="/images/brand/logo/fdnet.jpg" alt="" loading="lazy" />
 												</Navbar.Brand>
 												<Nav className="me-auto">
 													<Nav.Link href="#home">Home</Nav.Link>
@@ -218,8 +218,8 @@ const Navbars = () => {
 										<br />
 										<Navbar bg="light" variant="light">
 											<Container>
-												<Navbar.Brand href="#home">
-													<Image src="/images/brand/logo/logo.svg" alt="" loading="lazy" />
+												<Navbar.Brand href="#home"  className={"text-center"}>
+													<Image src="/images/brand/logo/fdnet.jpg" alt="" loading="lazy" />
 												</Navbar.Brand>
 												<Nav className="me-auto">
 													<Nav.Link href="#home">Home</Nav.Link>
